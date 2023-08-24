@@ -72,9 +72,10 @@ font-family: 'IBM Plex Sans', sans-serif; */
     letter-spacing: -0.18px;
     color: #FCFAF9;
     margin: 32px 0 16px;
-    background-image: url("assets/icon-apple.svg");
-    background-repeat: no-repeat;
-    background-position: 65px center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.8px;
 }
 
 .ios:hover {
@@ -95,9 +96,10 @@ font-family: 'IBM Plex Sans', sans-serif; */
     text-align: center;
     letter-spacing: -0.18px;
     color: #191826;
-    background-image: url("assets/icon-android.svg");
-    background-repeat: no-repeat;
-    background-position: 50px center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.8px;
 }
 
 .android:hover {
